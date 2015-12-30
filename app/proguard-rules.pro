@@ -28,3 +28,6 @@
 -keepclasseswithmembernames class * {
     @butterknife.* <methods>;
 }
+
+-dontnote android.support.*
+-dontwarn rx.internal.util.unsafe.*
