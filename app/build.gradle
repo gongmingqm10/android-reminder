@@ -24,15 +24,13 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.android.support:design:23.1.1'
     compile 'com.jakewharton:butterknife:7.0.1'
+    provided 'com.squareup.dagger:dagger-compiler:1.2.2'
     compile 'com.squareup.dagger:dagger:1.2.2'
     compile 'io.reactivex:rxjava:1.0.14'
     compile 'io.reactivex:rxandroid:1.0.1'
+    compile 'org.apache.commons:commons-lang3:3.3.2'
 
     testCompile 'junit:junit:4.12'
     testCompile 'org.mockito:mockito-all:1.10.19'
     testCompile 'org.robolectric:robolectric:3.0'
-    testCompile 'com.squareup.assertj:assertj-android:1.1.1'
-    testCompile 'com.squareup.assertj:assertj-android-support-v4:1.1.1'
-    testCompile 'com.squareup.assertj:assertj-android-appcompat-v7:1.1.1'
-    testCompile 'com.squareup.assertj:assertj-android-design:1.1.1'
 }

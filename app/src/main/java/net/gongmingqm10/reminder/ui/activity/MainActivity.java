@@ -12,6 +12,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import net.gongmingqm10.reminder.R;
+import net.gongmingqm10.reminder.presenter.Presenter;
 
 import butterknife.Bind;
 import butterknife.OnClick;
@@ -63,11 +64,16 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-
         if (item.getItemId() == R.id.action_settings) {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public Presenter getPresenter() {
+        // No presenter for this Activity.
+        return null;
     }
 
     @Override
