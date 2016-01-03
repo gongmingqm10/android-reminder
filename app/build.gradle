@@ -29,6 +29,7 @@ dependencies {
     compile 'io.reactivex:rxjava:1.0.14'
     compile 'io.reactivex:rxandroid:1.0.1'
     compile 'org.apache.commons:commons-lang3:3.3.2'
+    compile 'de.hdodenhof:circleimageview:2.0.0'
 
     testCompile 'junit:junit:4.12'
     testCompile 'org.mockito:mockito-all:1.10.19'
